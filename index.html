@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/title-logo.png" type="image/x-icon"> 
+
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/adaptive.css">
+
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <title>Дело Жизни</title>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="img/logo__header.png" alt="">
+            </div>
+            <input type="checkbox" id="menu-checkbox">
+            <nav role="navigation">
+                <label for="menu-checkbox" class="toggle-button" data-open="MENU" data-close="" onclick=""></label>
+                <ul class="main-menu">
+                    <li><a href="">Главная</a></li>
+                    <li><a href="">О нас</a></li>
+                    <li>                       
+                        <select name="help" id="help">
+                            <option value="">Помощь</option>
+                            <option value="">Санкт-Петербург</option>
+                            <option value="">Санкт-Петербург</option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="city" id="city">
+                            <option value="">Санкт-Петербург</option>
+                            <option value="">Санкт-Петербург</option>
+                            <option value="">Санкт-Петербург</option>
+                        </select>
+                    </li>
+                    <li><p class="number">+7 495 967 13 01</p></li>
+                    <li><a href="" class="office">Личный кабинет</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main__container">
+            <div class="program__card__block">
+                <div class="program__card__content">
+                    <div class="program__card__content__left">
+                        <p class="card__title">Страховая программе <span>ЗАЩИТА +</span></p>
+                        <p class="card__text">Одна из самых удобных и выгодных страховых программ предоставляемых грожанам России и иностранным гражданам. </p>
+                        <button class="btn">купить</button>
+                    </div>
+                    <div class="program__card__content__right">
+                        <img src="img/logo__program__card.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="insurance__cards__block">
+                <p class="insurance__title">О страховании</p>
+                <div class="insurance__cards__container">
+                    <div class="insurance__item">
+                        <img src="img/top__card__1-2.png" alt="" class="abs-img">
+                        <div class="item__content">
+                            <img src="img/logo__item__1.png" alt="">
+                            <p class="insurance__item__text">обращения к доктору<br><span>24/7</span></p>
+                        </div>
+                    </div>
+                    <div class="insurance__item">
+                        <img src="img/top__card__1-2.png" alt="" class="abs-img">
+                        <div class="item__content">
+                            <img src="img/logo__item__2.png" alt="">
+                            <p class="insurance__item__text">обращения к врачам-специалистам</p>
+                        </div>
+                    </div>
+                    <div class="insurance__item">
+                        <img src="img/top__card__3.png" alt="" class="abs-img">
+                        <div class="item__content">
+                            <img src="img/logo__item__3.png" alt="">
+                            <p class="insurance__item__text">защита от несчастного случая + медицинский онлайн-сервис</p>
+                        </div>
+                    </div>
+                    <div class="insurance__item">
+                        <img src="img/top__card__4.png" alt="" class="abs-img">
+                        <div class="item__content">
+                            <img src="img/logo__item__4.png" alt="">
+                            <p class="insurance__item__text">лабораторные исследования</p>
+                        </div>
+                    </div>
+                    <div class="insurance__item">
+                        <img src="img/top__card__5.png" alt="" class="abs-img">
+                        <div class="item__content">
+                            <img src="img/logo__item__5.png" alt="" id="logo__item__5">
+                            <p class="insurance__item__text">упрощенная система
+                                страхования</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conditions__block">
+                <p class="block__title">Условия которые мы предоставим Вам</p>
+                <div class="conditions__container">
+                    <div class="item__conditions item__img">
+                        <img src="img/logo__conditions__item__1.png" alt="">
+                    </div>
+                    <div class="item__conditions item__text">
+                        <p><span>20+</span><br>Высококвалифицированных врачей к которым вы можете обращаться <span>24/7</span></p>
+                    </div>
+                    <div class="item__conditions item__text item__text__3">
+                        <p id="item__3__text">BestDoctor</p>
+                        <p>Доступ в один из лучших медицинских сервисов в России</p>
+                    </div>
+                    <div class="item__conditions item__img">
+                        <img src="img/logo__conditions__item__2.png" alt="" id="item__2__img">
+                    </div>
+                    <div class="item__conditions item__img">
+                        <img src="img/logo__conditions__item__3.png" alt="">
+                    </div>
+                    <div class="item__conditions item__text">
+                        <p class="sum__insurance"><span>600 000₽</span><br>Сумма страховой защиты от нещастного случая</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="packages__block">
+                <p class="block__title">У нас есть 2 пакета услуг</p>
+                <div class="packages__container">
+                    <div class="packages__item">
+                        <div class="packages__top packages__top__1">
+                            <p>Что мы предлагаем:</p>
+                        </div>
+                        <div class="packages__content packages__content__1">
+                            <ul>
+                                <li>круглосуточный колл-центр по консультациям терапевта или педиатра</li>
+                                <li>консультация терапевта или педиатра по телефону или по видеосвязи</li>
+                                <li>предварительная запись к выбранному узкому специалисту по телефону или через личный кабинет пациента</li>
+                                <li>консультация узкого специалиста по видеосвязи</li>
+                                <li>выбор лаборатории, запись на прием в лабораторию</li>
+                                <li>в комплексный отчет о состоянии здоровья пациента от врача после получения результатов анализов от пациента</li>
+                                <li>никаких чат-ботов</li>
+                                <li>на связи 25/7 только высококвалифицированные врачи</li>
+                                <li>удобное приложение с простым интерфейсом BestDoctor</li>
+                                <li>
+                                    <div class="list-group-item list-header" data-name="spoiler-title">
+                                        Общие (клинические анализы)
+                                    </div>
+                                    <div class="list-group-item list-content spoiler-body">
+                                        <ul>
+                                            <li>УЗИ органов брошной полости</li>
+                                            <li>почек</li>
+                                            <li>мочевого пузыря</li>
+                                            <li>УЗДГ сосудов (артерии и вены)</li>
+                                            <li>одно исследование из списка в течение срока действия программы</li>
+                                        </ul>                      
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-group-item list-header" data-name="spoiler-title">
+                                        ультразвуковые исследования
+                                    </div>
+                                    <div class="list-group-item list-content spoiler-body">
+                                        <ul>
+                                            <li>УЗИ органов брошной полости</li>
+                                            <li>почек</li>
+                                            <li>мочевого пузыря</li>
+                                            <li>УЗДГ сосудов (артерии и вены)</li>
+                                            <li>одно исследование из списка в течение срока действия программы</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-group-item list-header" data-name="spoiler-title">
+                                        рентгенологические исследования
+                                    </div>
+                                    <div class="list-group-item list-content spoiler-body">
+                                        <ul>
+                                            <li>УЗИ органов брошной полости</li>
+                                            <li>почек</li>
+                                            <li>мочевого пузыря</li>
+                                            <li>УЗДГ сосудов (артерии и вены)</li>
+                                            <li>одно исследование из списка в течение срока действия программы</li>
+                                        </ul>                           
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn">скачать полную версию</button>
+                    </div>
+
+                    <div class="packages__item packages__item__2">
+                        <div class="packages__top">
+                            <p> <span>Защита + </span><br>виртуальная клиника</p>
+                        </div>
+                        <div class="packages__content packages__content__2">
+                            <ul>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark-2.png" alt=""></li>
+                                <li><img src="fonts/check mark-2.png" alt=""></li>
+                                <li><img src="fonts/check mark-2.png" alt=""></li>
+                            </ul>
+                            <p>10 500 руб.</p>
+                            <button class="btn">купить</button>
+                        </div>
+                    </div>
+
+                    <div class="packages__item packages__item__3">
+                        <div class="packages__top">
+                            <p> <span>Защита + </span><br>виртуальная клиника, лабораторные исследования </p>
+                        </div>
+                        <div class="packages__content packages__content__3">
+                            <ul>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                                <li><img src="fonts/check mark.png" alt=""></li>
+                            </ul>
+                            <p>Супер цена <span>7 750 руб</span></p>
+                            <button class="btn">купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="questions__block">
+                <p class="block__title">Часто задаваемые вопросы</p>
+                <div class="questions__block__container">
+                    <div class="list-group-item list-header" data-name="spoiler-title">
+                        Сколько раз в год можно обратиться к терапевту или педиатру по данной программе?
+                    </div>
+                    <div class="list-group-item list-content spoiler-body">
+                        Количество обращений не ограничено в течение всего срока действия договора.
+                    </div>
+                    <div class="list-group-item list-header" data-name="spoiler-title">
+                        Сколько раз в год можно обратиться к узкому специалисту?
+                    </div>
+                    <div class="list-group-item list-content spoiler-body">
+                        Количество обращений не ограничено в течение всего срока действия договора.
+                    </div>
+                    <div class="list-group-item list-header" data-name="spoiler-title">
+                        Как получить консультацию врача? 
+                    </div>
+                    <div class="list-group-item list-content spoiler-body">
+                        Количество обращений не ограничено в течение всего срока действия договора.
+                    </div>
+                    <div class="list-group-item list-header" data-name="spoiler-title">
+                        Какие врачи-специалисты представлены в сервисе, кроме терапевта и педиатра? 
+                    </div>
+                    <div class="list-group-item list-content spoiler-body">
+                        Количество обращений не ограничено в течение всего срока действия договора.
+                    </div>
+                    <div class="list-group-item list-header" data-name="spoiler-title">
+                        Как получить консультацию педиатра, если возраст ребенка меньше 1 года, и оформить на ребенка программу нельзя? 
+                    </div>
+                    <div class="list-group-item list-content spoiler-body">
+                        Количество обращений не ограничено в течение всего срока действия договора.
+                    </div>
+                </div>
+            </div>
+
+            <div class="case__block">
+                <p class="block__title">Что делать, если произошел страховой случай?</p>
+                <div class="tabs">
+                    <div class="tabs__nav">
+                        <div class="tabs__nav-btn" type="button" data-tab="#tab_1">
+                            <img src="img/card/card__logo__1.png" alt="" id="img__card__1">
+                            <p>Позвоните нам</p>
+                        </div>
+                        <div class="tabs__nav-btn" type="button" data-tab="#tab_2">
+                            <img src="img/card/card__logo__2.png" alt="" id="img__card__2">
+                            <p>Заполните заявление</p>
+                        </div>
+                        <div class="tabs__nav-btn" type="button" data-tab="#tab_3">
+                            <img src="img/card/card__logo__3.png" alt="" id="img__card__3">
+                            <p>Узнайте статус решения вопроса</p>
+                        </div>
+                        <div class="tabs__nav-btn" type="button" data-tab="#tab_4">
+                            <img src="img/card/card__logo__4.png" alt="" id="img__card__4">
+                            <p>Полный архив всех условий</p>
+                        </div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__item" id="tab_1">
+                            <div class="left__content__tabs__item">
+                                <p class="title__tabs__item">Заполните заявление и подготовьте необходимые документы</p>
+                                <p>Направьте документы в Страховую компанию удобным для Вас способом:</p>
+                                <ul>
+                                    <li>через <a href="">Личный кабинет</a></li>
+                                    <li>письмом по адресу: 125252, г. Москва, а/я 28</li>
+                                </ul>
+                            </div>
+                            <div class="right__content__tabs__item">
+                                <p class="title__tabs__item">Список необходимых документов для заключения договора:</p>
+                                <ul>
+                                    <li>паспорт</li>
+                                    <li>заявление на страхование</li>
+                                    <li>иные документы-по запросу компании</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tabs__item" id="tab_2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto dignissimos eveniet nulla officia labore vero ad, molestiae hic! Sunt ullam quibusdam ex nam officiis dolore incidunt, asperiores vitae at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, dolorem voluptatum.</p>
+                        </div>
+                        <div class="tabs__item" id="tab_3">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iusto dignissimos eveniet nulla officia labore vero ad, molestiae hic! Sunt ullam quibusdam ex nam officiis dolore incidunt, asperiores vitae at. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="tabs__item" id="tab_4">
+                            <p>Deserunt iusto dignissimos eveniet nulla officia labore vero ad, molestiae hic! Sunt ullam quibusdam ex nam officiis dolore incidunt, asperiores vitae at. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="presentation__block">
+                <p class="block__title">Посмотреть полную презентацию продукта</p>
+                <button class="btn">Скачать PDF</button>
+            </div>
+
+            <div class="details__block">
+                <p class="block__title">Уточнить детали</p>
+                <p class="reference__text">Если вы не нашли ответа на свой вопрос, заполните<br> эту форму, а мы как можно быстрее ответим вам.</p>
+                <div class="details__container">
+                    <div class="tabs">
+                        <div class="tabs__nav">
+                            <div class="tabs__nav-btn__2" type="button" data-tab="#tab_5">1</div>
+                            <div class="tabs__nav-btn__2" type="button" data-tab="#tab_6">2</div>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tabs__item__2" id="tab_5">
+                                <form name="form_1" method="GET" action="">
+                                    <p>ФИО*</p>
+                                    <input type="text" placeholder="Иванов Иван Иванович">
+                                    <p>Номер телефона*</p>
+                                    <input type="number" placeholder="+7 (495) 453 33 41">
+                                    <p>Email*</p>
+                                    <input type="email" placeholder="delolive@mail.ru">
+                                    <p>Регион*</p>
+                                    <select name="region" id="list__region">
+                                        <option value="San">Санкт-Петербург</option>
+                                        <option value="">Москва</option>
+                                        <option value="">Калининград</option>
+                                    </select>
+                                    <div class="btn__form">
+                                        <button type="reset">Очистить</button>
+                                        <button type="submit">далее</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tabs__item__2" id="tab_6">
+                                <form name="form_2" method="GET" action="">
+                                    <div class="input__row">
+                                        <div>
+                                            <p>Наименование страхового продукта</p>
+                                            <select name="protection" id="select__protection">
+                                                <option value="">Защита +</option>
+                                                <option value="">Защита +</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <p>Номер полиса</p>
+                                            <input type="text" placeholder="123456789" id="input__number">
+                                        </div>
+                                    </div>
+                                    <p>Выберите тему</p>
+                                    <select name="protection" id="">
+                                        <option value="">Расторжение страхового полиса</option>
+                                        <option value="">Расторжение страхового полиса</option>
+                                    </select>
+                                    <p>Ваше сообщение</p>
+                                    <textarea name="" id=""  placeholder="Здравствуйте! "></textarea>
+                                    <div class="input__row">
+                                        <div class="row__left">
+                                            <button type="file" name="file" id="file">Выбрать файл</button>
+                                            <p class="row__left__text" id="status__file">Файл не выбран</p>
+                                            <p class="row__left__text">JPG, GIF или PNG. Максимальный размер 1 мб.</p>
+                                        </div>
+                                        <div class="row__right">
+                                            
+                                            <input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+                                            <label for="color-1"><p><span>Я принимаю</span> условия передачи информации</p></label>
+                                            <div class="btn__form">
+                                                <button type="reset">Очистить</button>
+                                                <button type="submit">отправить</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img__details">
+                        <img src="img/img__details.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__block__1">
+                <ul>
+                    <li><a href="">Главная</a></li>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Спецпредложение</a></li>
+                    <li><a href="">Бизнес предложения</a></li>
+                    <li><a href="">Твое будущее</a></li>
+                    <li><a href="">Защита себя и близких</a></li>
+                    <li><a href="">Защита сотрудников</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Страховая документация</a></li>
+                    <li><a href="">Финансовые показатели</a></li>
+                    <li><a href="">Контакты</a></li>
+                    <li><a href="">Карта сайта</a></li>
+                </ul>
+            </div>
+            <div class="footer__block__2">
+                <div class="adress__block__1">
+                    <p class="grey-text">125252, г. Москва,<br>ул. Зорге, д. 22 А, офис 811</p>
+                    <p class="grey-text">График работы главного офиса<br>
+                        125252, г. Москва,<br>
+                        ул. Зорге, д. 22 А, офис 811<br>
+                        Пн. - Чт. с 9:00 до 18:00<br>
+                        Пт.  с 9:00 до 16:45<br>
+                        Сб-Вс выходной
+                    </p>
+                    <button class="adress__btn">Как добраться</button>
+                </div>
+                <div class="adress__block__2">
+                    <p class="grey-text">Адрес для почтовых отправлений:<br>125252, г. Москва, а/я 28</p>
+                    <p class="number-text">тел.: +7 495 967 13 01</p>
+                    <p>Email для связи с нами<br><span>info@prolife.ru</span></p>
+                    <div class="soc__container">
+                        <a href=""><img src="img/item-social/vk.png" alt=""></a>
+                        <a href=""><img src="img/item-social/telegramm.png" alt=""></a>
+                        <a href=""><img src="img/item-social/facebook.png" alt=""></a>
+                        <a href=""><img src="img/item-social/instagramm.png" alt="" id="last__soc"></a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </footer>
+    <div class="footer-author">
+        <p>© 2021 The Business of Life. Designed by ZooMbix DD</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

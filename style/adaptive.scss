@@ -1,0 +1,284 @@
+
+@media screen and (max-width:800px) {
+    %flex_columns_center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    %title_block_text {
+        font-size: 30px;
+        font-weight: 550;
+        line-height: 30px;
+    }
+    .btn {
+        width: 100%;
+    }
+    main {
+        .main__container {
+            margin: 20px 0px 30px;
+        }
+        .program__card__block {
+            padding: 20px 20px;
+            .program__card__content {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .program__card__content__left {
+                    .card__title {
+                        font-size: 24px;
+                        line-height: 25px;
+                        margin-top: 0px;
+                        margin-bottom: 20px;
+                        span {
+                            font-weight: 600;
+                        }
+                    }
+                    .card__text {
+                        margin-bottom: 20px;
+                    }
+                }
+                .program__card__content__right {
+                    display: flex;
+                    justify-content: center;
+                    img {
+                        width: 350px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+
+        .insurance__cards__block {
+            @extend %flex_columns_center;
+            margin: 80px 0;
+            .insurance__title {
+                @extend %title_block_text;
+                margin-bottom: 20px;
+            }
+            .insurance__cards__container {
+                @extend %flex_columns_center;
+                .insurance__item {
+                    margin-right: 0px;
+                    margin-top: 35px;
+                }
+            }
+        }
+
+        .conditions__block {
+            .block__title {
+                @extend %title_block_text;
+            }
+            .conditions__container {
+                grid-template-columns: 100%;
+                padding: 0 20px;
+                .item__img {
+                    img {
+                        width: 350px;
+                        height: 320px;
+                    }
+                    #item__2__img {
+                        width: 230px;
+                        height: 400px;
+                    }
+                }
+                .item__text {               
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #0D1C41;
+                    p {
+                        margin-bottom: 35px;
+                    }
+                    span {
+                        font-size: 40px;
+                        line-height: 40px;                        
+                        &:last-child {
+                            font-size: 20px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+                .item__text__3 {
+                    #item__3__text{                   
+                        font-weight: 600;
+                        font-size: 29.66px;
+                        line-height: 35px;
+                        color: #000000;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        &::before {
+                            margin-right: 27px;
+                        }
+                    }
+                }
+                .sum__insurance {
+                    text-align: center;
+                }
+            }
+        }
+
+        .packages__block {
+            .block__title {
+                @extend %title_block_text;
+            }
+            .packages__container {
+                display: flex;
+                flex-direction: column;
+                .packages__item {
+                    width: 345px;
+                    padding-top: 126px;
+                    margin-right: 0px;
+                }
+                .packages__item__2, .packages__item__3 {
+                    display: none;
+                }
+            }
+        }
+
+        .questions__block {
+            margin-top: 70px;
+            .block__title {
+                @extend %title_block_text;
+                margin-bottom: 30px;
+            }
+            .questions__block__container {
+                padding: 0 30px;
+                .list-header {
+                    width: 100%;
+                    height: auto;
+                    padding: 0 0px;
+                    margin-bottom: 30px;
+                    &::after {
+                        right: 15px;
+                        top: 0px;
+                    }
+                }
+                .list-content {
+                    width: 100%;
+                    height: 60px;
+                    margin-top: 0px;
+                    margin-bottom: 30px;
+                    padding: 0px 0px;
+                }
+            }
+        }
+
+        .case__block {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            .block__title {
+                @extend %title_block_text;
+                width: 350px;
+                line-height: 40px;
+            }
+            .tabs {
+                max-width: 100%;
+                margin: 35px 0;
+                .tabs__nav {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    .tabs__nav-btn {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 140px;
+                        max-height: 185px;
+                        padding: 35px 19px;
+                        margin: 20px;
+                    }
+                }
+                .tabs__content {
+                    margin-top: 20px;
+                    .tabs__item.active {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .tabs__item {
+                        padding: 30px;
+                    }
+                    .tabs__item, .tabs__item__2 {
+                        max-width: 100%;
+                    }
+                    #tab_1 {
+                        ul {
+                            li {
+                                &:last-child {
+                                    margin-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .left__content__tabs__item {
+                        width: 320px;
+                        .title__tabs__item {
+                            font-weight: 650;
+                            width: 320px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .presentation__block {
+            margin-top: 50px;
+            padding: 0 15px;
+            .block__title {
+                @extend %title_block_text;
+                width: 350px;
+                margin-bottom: 49px;
+            }
+        }
+
+        .details__block {
+            display: none;
+
+        }
+    }
+
+    footer {
+        padding: 30px;
+        .footer__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .footer__block__1 {
+                display: flex;
+                justify-content: space-between;
+                font-size: 16px;
+                line-height: 21px;
+                margin-bottom: 50px;
+                ul {
+                    width: 120px;
+                    margin-right: 0px;
+                }
+            }
+            .footer__block__2 {
+                display: flex;
+                flex-direction: column;
+                .adress__block__1, .adress__block__2  {
+                    width: 100%;
+                    margin-right: 0px;
+                }
+                
+                .grey-text {
+                    margin-bottom: 30px;
+                }
+                .adress__btn {
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+                .soc__container {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    margin-top: 60px;
+                }
+            }
+        }
+    }
+}
